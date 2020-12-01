@@ -5,7 +5,7 @@ problem now and again. Namely, what the heck to do on a date. While
 very simple in execution, apparently we all need to start somewhere.*/
 
 // First array contains all food places. Would objects give future customisation?
-const food = [];
+const food = [0, 1, 2, 3];
 
 // Second array contains all activities.
 const activity = [];
@@ -13,3 +13,10 @@ const activity = [];
 // Third array contains our 'night cap' post activity activity.
 const nightcap = [];
 
+const randomIndex = arr => {
+    let index = Math.floor(Math.random() * arr.length);
+    console.log('Index =' + index);
+    console.log(food[index]);
+}
+
+randomIndex(food);
