@@ -3,4 +3,36 @@ h1 {
     font-size: 100px;
     font-weight: bold;
     color: khaki;
+    text-align: center;
+    background-image:
+                    url("./pattern.webp");
+}
+
+.green {
+    background-color: mediumspringgreen;
+}
+
+.pink {
+    background-color: lightcoral;
+}
+
+.blue {
+    background-color: skyblue;
+}
+
+.subheading {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h3, p {
+    font-family: Helvetica;
+}
+
+.price {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
 }
